@@ -55,7 +55,7 @@ public class HeroTester {
         setUp();
         hero1.fightUntilTheDeath(hero2);
         if (hero1.getHitPoints() < hero2.getHitPoints()) assertTrue("Ensure that your duelToTheDeath method has been implemented correctly!", hero1.getHitPoints() == 0);
-        else assertTrue("Ensure that your duelToTheDeath method has been implemented correctly!", hero2.getHitPoints() == 0);
+         else assertTrue("Ensure that your duelToTheDeath method has been implemented correctly!", hero2.getHitPoints() == 0);
         tearDown();
     }
 
